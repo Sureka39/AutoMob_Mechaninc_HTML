@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Appoinment | AutoMob-Mechanic</title>
+    <style>
+        #footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="home.html">
+        <h1>AutoMob-Mechanic</h1>
+    </a>
+    <a href="home.html">Home</a>&#124;
+    <a href="services.html">Services</a>|
+    <a href="booking.html">Booking</a>|
+    <a href="contact@automob.co.in">contact@automob.co.in</a>&#128231;|
+    <span>999 999 9999</span>&#9742;
+    <hr>
+    <h2> Schedule Your Appointment</h2>
+    <form action="booking-success.html" method="post">
+        <label for="date">Appoinment Date:</label>
+        <input type="date"><br><br>
+        <label for="address">Address:</label>
+        <textarea></textarea><br><br>
+        <label for="city">City:</label>
+        <input type="text" placeholder="Mumbai,pune..."><br><br>
+        
+        <label for="state">State:</label>
+        <input list="states" name="state" id="state" placeholder="Kerala,Maharashtra...">
+        <datalist id="states">
+            <option value="Assam">
+            <option value="Bihar">
+            <option value="Gujarat">
+            <option value="Goa">
+            <option value="TamilNadu">
+        </datalist><br><br>
+        
+        <label for="notification">Send Notification:</label>
+        <input type="checkbox">Email
+        <input type="checkbox">SMS
+        <br>
+        <br>
+        <button type="submit">Book</button>
+    </form>
+    <footer id="footer">
+        <hr>
+        <p>Copyright &copy; 2020 AutoMob-Mechanic. All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
